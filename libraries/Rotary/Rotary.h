@@ -27,7 +27,7 @@ class Rotary
     Rotary(char, char);
     // Process pin(s)
     unsigned char process();
-  private:
+  protected:
     unsigned char state;
     unsigned char pin1;
     unsigned char pin2;
